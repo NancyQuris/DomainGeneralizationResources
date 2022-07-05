@@ -20,6 +20,9 @@ Related papers about domain generalization, with a main focus on the papers of a
 
 ## Domain-invariant Representation Learning
 ### Domain Alignment
+[Unified Deep Supervised Domain Adaptation and Generalization](https://arxiv.org/abs/1709.10190)
+- Saeid Motiian, Marco Piccirilli, Donald A. Adjeroh, Gianfranco Doretto
+
 [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
 - Sivan Harary, Eli Schwartz, Assaf Arbelle, Peter Staar, Shady Abu-Hussein, Elad Amrani, Roei Herzig, Amit Alfassy, Raja Giryes, Hilde Kuehne, Dina Katabi, Kate Saenko, Rogerio Feris, Leonid Karlinsky
 
@@ -31,14 +34,15 @@ Related papers about domain generalization, with a main focus on the papers of a
 [Domain Generalization for Medical Imaging Classification with Linear-Dependency Regularization](https://arxiv.org/abs/2009.12829)
 - Haoliang Li, YuFei Wang, Renjie Wan, Shiqi Wang, Tie-Qiang Li, Alex C. Kot
 
+[SelfReg: Self-supervised Contrastive Regularization for Domain Generalization](https://arxiv.org/abs/2104.09841)
+- Daehee Kim, Seunghyun Park, Jinkyu Kim, Jaekoo Lee
+
 ### Weight Decomposition
 [Undoing the Damage of Dataset Bias](https://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf)
 - Aditya Khosla, Tinghui Zhou, Tomasz Malisiewicz, Alexei A. Efros, and Antonio Torralba
 
 [Deeper, Broader and Artier Domain Generalization](https://arxiv.org/abs/1710.03077)
 - Da Li, Yongxin Yang, Yi-Zhe Song, Timothy M. Hospedales
-
-
 
 
 ## Data Augmentation
@@ -65,12 +69,6 @@ Related papers about domain generalization, with a main focus on the papers of a
 - Divyat Mahajan, Shruti Tople, Amit Sharma
 
 ### Contrastive Learning
-[Unified Deep Supervised Domain Adaptation and Generalization](https://arxiv.org/abs/1709.10190)
-- Saeid Motiian, Marco Piccirilli, Donald A. Adjeroh, Gianfranco Doretto
-
-[SelfReg: Self-supervised Contrastive Regularization for Domain Generalization](https://arxiv.org/abs/2104.09841)
-- Daehee Kim, Seunghyun Park, Jinkyu Kim, Jaekoo Lee
-
 [Encouraging Intra-Class Diversity Through a Reverse Contrastive Loss for Better Single-Source Domain Generalization](https://arxiv.org/abs/2106.07916)
 - Thomas Duboudin, Emmanuel Dellandréa, Corentin Abgrall, Gilles Hénaff, Liming Chen
 
