@@ -65,7 +65,7 @@ Related papers about domain generalization, with a main focus on the papers of a
 
 ## Learning Strategies
 ### Causality
-[Domain Generalization Using Causal Learning](https://arxiv.org/abs/2006.07500)
+[Domain Generalization Using Causal Matching](https://arxiv.org/abs/2006.07500)
 - Divyat Mahajan, Shruti Tople, Amit Sharma
 
 ### Contrastive Learning
