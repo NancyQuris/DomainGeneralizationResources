@@ -1,5 +1,5 @@
 # Domain generalization papers
-Related papers about domain generalization, with a main focus on the papers of application type. Papers are sorted in chronological order. 
+Related papers about domain generalization, with a main focus on the papers of application type. Papers are sorted in chronological order. Paper with italic titles are domain adaptation papers that share similar methodologies.
 
 ## Surveys
 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)
@@ -15,8 +15,16 @@ Related papers about domain generalization, with a main focus on the papers of a
 - Zheyan Shen, Jiashuo Liu, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui
 
 ## Task Definition
+[Generalizing from Several Related Classification Tasks to a New Unlabeled Sample](https://papers.nips.cc/paper/2011/hash/b571ecea16a9824023ee1af16897a582-Abstract.html)
+- Gilles Blanchard, Gyemin Lee, Clayton Scott
+
 [Unbiased Look at Dataset Bias](https://people.csail.mit.edu/torralba/publications/datasets_cvpr11.pdf)
 - Antonio Torralba, Alexei A. Efros
+
+[Domain Generalization via Invariant Feature Representation](https://arxiv.org/abs/1301.2115)
+- Krikamol Muandet, David Balduzzi, Bernhard Schölkopf
+
+
 
 ## Domain-invariant Representation Learning
 ### Domain Alignment
@@ -26,6 +34,20 @@ Related papers about domain generalization, with a main focus on the papers of a
 [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
 - Sivan Harary, Eli Schwartz, Assaf Arbelle, Peter Staar, Shady Abu-Hussein, Elad Amrani, Roei Herzig, Amit Alfassy, Raja Giryes, Hilde Kuehne, Dina Katabi, Kate Saenko, Rogerio Feris, Leonid Karlinsky
 
+### Domain-invariant and domain-specific feature disentanglement
+[Domain Agnostic Learning with Disentangled Representations](https://arxiv.org/abs/1904.12347)
+- Xingchao Peng, Zijun Huang, Ximeng Sun, Kate Saenko
+
+
+[Exploiting Domain-Specific Features to Enhance Domain Generalization](https://arxiv.org/abs/2110.09410)
+- Manh-Ha Bui, Toan Tran, Anh Tuan Tran, Dinh Phung
+
+### Normalization
+[Improving robustness against common corruptions by covariate shift adaptation](https://arxiv.org/abs/2006.16971)
+- Steffen Schneider, Evgenia Rusak, Luisa Eck, Oliver Bringmann, Wieland Brendel, Matthias Bethge
+
+[Adversarially Adaptive Normalization for Single Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Adversarially_Adaptive_Normalization_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)
+- Xinjie Fan, Qifei Wang, Junjie Ke, Feng Yang, Boqing Gong, Mingyuan Zhou
 
 ### Regularization
 [Sample-based Regularization: A Transfer Learning Strategy Toward Better Generalization](https://arxiv.org/abs/2007.05181)
@@ -37,6 +59,9 @@ Related papers about domain generalization, with a main focus on the papers of a
 [SelfReg: Self-supervised Contrastive Regularization for Domain Generalization](https://arxiv.org/abs/2104.09841)
 - Daehee Kim, Seunghyun Park, Jinkyu Kim, Jaekoo Lee
 
+[Domain Generalization by Mutual-Information Regularization with Pre-trained Models](https://arxiv.org/abs/2203.10789)
+- Junbum Cha, Kyungjae Lee, Sungrae Park, Sanghyuk Chun
+
 ### Weight Decomposition
 [Undoing the Damage of Dataset Bias](https://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf)
 - Aditya Khosla, Tinghui Zhou, Tomasz Malisiewicz, Alexei A. Efros, and Antonio Torralba
@@ -46,6 +71,22 @@ Related papers about domain generalization, with a main focus on the papers of a
 
 
 ## Data Augmentation
+### Adversarial Augmentation
+[Generalizing Across Domains via Cross-Gradient Training](https://arxiv.org/abs/1804.10745)
+- Shiv Shankar, Vihari Piratla, Soumen Chakrabarti, Siddhartha Chaudhuri, Preethi Jyothi, Sunita Sarawagi
+
+[Generalizing to Unseen Domains via Adversarial Data Augmentation](https://arxiv.org/abs/1805.12018)
+- Riccardo Volpi, Hongseok Namkoong, Ozan Sener, John Duchi, Vittorio Murino, Silvio Savarese
+
+[_Adversarial Domain Adaptation with Domain Mixup_](https://ojs.aaai.org/index.php/AAAI/article/view/6123/5979)
+- Minghao Xu, Jian Zhang, Bingbing Ni, Teng Li, Chengjie Wang, Qi Tian, Wenjun Zhang
+
+[Deep Domain-Adersarial Image Generation for Domain Generalization](https://arxiv.org/abs/2003.06054)
+- Kaiyang Zhou, Yongxin Yang, Timothy Hospedales, Tao Xiang
+
+[Learning to Learn Single Domain Generalization](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qiao_Learning_to_Learn_Single_Domain_Generalization_CVPR_2020_paper.pdf)
+- Fengchun Qiao, Long Zhao, Xi Peng
+
 ### Generator Network-based
 [Analyzing and Reducing the Damage of Dataset Bias to Face Recognition with Synthetic Data](https://openaccess.thecvf.com/content_CVPRW_2019/papers/BEFA/Kortylewski_Analyzing_and_Reducing_the_Damage_of_Dataset_Bias_to_Face_CVPRW_2019_paper.pdf)
 - Adam Kortylewski, Bernhard Egger, Andreas Schneider, Thomas Gerig, Andreas Morel-Forster, Thomas Vetter
@@ -57,11 +98,30 @@ Related papers about domain generalization, with a main focus on the papers of a
 - Lei Li, Ke Gao, Juan Cao, Ziyao Huang, Yepeng Weng, Xiaoyue Mi, Zhengze Yu, Xiaoya Li, Boyang Xia
 
 ### Feature Augmentation 
+[Self-Challenging Improves Cross-Domain Generalization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470120.pdf)
+- Zeyi Huang, Haohan Wang, Eric P. Xing, Dong Huang
+
 [A Simple Feature Augmentation for Domain Generalization](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_A_Simple_Feature_Augmentation_for_Domain_Generalization_ICCV_2021_paper.pdf)
 - Pan Li, Da Li, Wei Li, Shaogang Gong, Yanwei Fu, Timothy M. Hospedales
 
+[Domain Generalization with MixStyle](https://arxiv.org/abs/2104.02008)
+- Kaiyang Zhou, Yongxin Yang, Yu Qiao, Tao Xiang
+
 [Feature-based Style Randomization for Domain Generalization](https://arxiv.org/abs/2106.03171)
 - Yue Wang, Lei Qi, Yinghuan Shi, Yang Gao
+
+### Mixup-based Augmentation
+[Improve Unsupervised Domain Adaptation with Mixup Training](https://arxiv.org/abs/2001.00677)
+- Shen Yan, Huan Song, Nanxiang Li, Lincan Zou, Liu Ren
+
+[Towards Recognizing Unseen Categories in Unseen Domains](https://arxiv.org/abs/2007.12256)
+- Massimiliano Mancini, Zeynep Akata, Elisa Ricci, Barbara Caputo
+
+[Heterogeneous Domain Generalization via Domain Mixup](https://arxiv.org/abs/2009.05448)
+- Yufei Wang, Haoliang Li, Alex C. Kot
+
+[Uncertainty-guided Model Generalization to Unseen Domains](https://arxiv.org/abs/2103.07531)
+- Fengchun Qiao, Xi Peng
 
 ## Learning Strategies
 ### Causality
@@ -69,8 +129,18 @@ Related papers about domain generalization, with a main focus on the papers of a
 - Divyat Mahajan, Shruti Tople, Amit Sharma
 
 ### Contrastive Learning
+[_Domain Contrast for Domain Adaptive Object Detection_](https://arxiv.org/abs/2006.14863)
+- Feng Liu, Xiaoxong Zhang, Fang Wan, Xiangyang Ji, Qixiang Ye
+
+[_Category Contrast for Unsupervised Domain Adaptation in Visual Tasks_](https://arxiv.org/abs/2106.02885)
+- Jiaxing Huang, Dayan Guan, Aoran Xiao, Shijian Lu, Ling Shao
+
 [Encouraging Intra-Class Diversity Through a Reverse Contrastive Loss for Better Single-Source Domain Generalization](https://arxiv.org/abs/2106.07916)
 - Thomas Duboudin, Emmanuel Dellandréa, Corentin Abgrall, Gilles Hénaff, Liming Chen
+
+[_Transferrable Contrastive Learning for Visual Domain Adaptation_](https://dl.acm.org/doi/10.1145/3474085.3475496)
+- Yang Chen, Yingwei Pan, Yu Wang, Ting Yao, Xinmei Tian, Tao Mei
+
 
 ### Meta Learning
 [Domain Generalization via Model-agnostic Learning of Semantic Features](https://arxiv.org/abs/1910.13580)
