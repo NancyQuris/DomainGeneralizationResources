@@ -28,6 +28,9 @@ Related papers about domain generalization, with a main focus on the papers of a
 
 ## Domain-invariant Representation Learning
 ### Domain Alignment
+[Deep CORAL: Correlation Alignment for Deep Domain Adaptation](https://arxiv.org/abs/1607.01719)
+- Baochen Sun, Kate Saenko
+
 [Unified Deep Supervised Domain Adaptation and Generalization](https://arxiv.org/abs/1709.10190)
 - Saeid Motiian, Marco Piccirilli, Donald A. Adjeroh, Gianfranco Doretto
 
