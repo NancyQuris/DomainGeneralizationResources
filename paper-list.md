@@ -34,6 +34,15 @@ Related papers about domain generalization, with a main focus on the papers of a
 [Unified Deep Supervised Domain Adaptation and Generalization](https://arxiv.org/abs/1709.10190)
 - Saeid Motiian, Marco Piccirilli, Donald A. Adjeroh, Gianfranco Doretto
 
+[Generalizing to unseen domains via distribution matching](https://arxiv.org/abs/1911.00804)
+- Isabela Albuquerque, João Monteiro, Mohammad Darvishi, Tiago H. Falk, Ioannis Mitliagkas
+
+[Domain Generalization via Gradient Surgery](https://arxiv.org/abs/2108.01621)
+- Lucas Mansilla, Rodrigo Echeveste, Diego H. Milone, Enzo Ferrante
+
+[Fishr: Invariant Gradient Variances for Out-of-Distribution Generalization](https://arxiv.org/abs/2109.02934)
+- Alexandre Rame, Corentin Dancette, Matthieu Cord
+
 [Unsupervised Domain Generalization by Learning a Bridge Across Domains](https://arxiv.org/abs/2112.02300)
 - Sivan Harary, Eli Schwartz, Assaf Arbelle, Peter Staar, Shady Abu-Hussein, Elad Amrani, Roei Herzig, Amit Alfassy, Raja Giryes, Hilde Kuehne, Dina Katabi, Kate Saenko, Rogerio Feris, Leonid Karlinsky
 
