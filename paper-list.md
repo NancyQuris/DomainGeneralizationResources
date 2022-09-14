@@ -21,10 +21,6 @@ Related papers about domain generalization, with a main focus on the papers of a
 [Unbiased Look at Dataset Bias](https://people.csail.mit.edu/torralba/publications/datasets_cvpr11.pdf)
 - Antonio Torralba, Alexei A. Efros
 
-[Domain Generalization via Invariant Feature Representation](https://arxiv.org/abs/1301.2115)
-- Krikamol Muandet, David Balduzzi, Bernhard Schölkopf
-
-
 
 ## Domain-invariant Representation Learning
 ### Domain Alignment
@@ -47,6 +43,10 @@ Related papers about domain generalization, with a main focus on the papers of a
 - Sivan Harary, Eli Schwartz, Assaf Arbelle, Peter Staar, Shady Abu-Hussein, Elad Amrani, Roei Herzig, Amit Alfassy, Raja Giryes, Hilde Kuehne, Dina Katabi, Kate Saenko, Rogerio Feris, Leonid Karlinsky
 
 ### Domain-invariant and Domain-specific Feature Learning
+
+[Domain Generalization via Invariant Feature Representation](https://arxiv.org/abs/1301.2115)
+- Krikamol Muandet, David Balduzzi, Bernhard Schölkopf
+
 [Domain Agnostic Learning with Disentangled Representations](https://arxiv.org/abs/1904.12347)
 - Xingchao Peng, Zijun Huang, Ximeng Sun, Kate Saenko
 
