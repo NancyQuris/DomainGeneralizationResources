@@ -53,6 +53,9 @@ Related papers about domain generalization, with a main focus on the papers of a
 [Exploiting Domain-Specific Features to Enhance Domain Generalization](https://arxiv.org/abs/2110.09410)
 - Manh-Ha Bui, Toan Tran, Anh Tuan Tran, Dinh Phung
 
+[Variational Disentanglement for Domain Generalization](https://openreview.net/forum?id=fudOtITMIZ)
+- Yufei Wang, Haoliang Li, Hao Cheng, Bihan Wen, Lap-Pui Chau, Alex Kot
+
 [Domain-invariant Feature Exploration for Domain Generalization](https://arxiv.org/abs/2207.12020)
 - Wang Lu, Jindong Wang, Haoliang Li, Yiqiang Chen, Xing Xie
 
@@ -184,6 +187,11 @@ Related papers about domain generalization, with a main focus on the papers of a
 
 [Domain Generalization using Pretrained Models without Fine-tuning](https://arxiv.org/abs/2203.04600)
 - Ziyue Li, Kan Ren, Xinyang Jiang, Bo Li, Haipeng Zhang, Dongsheng Li
+
+### Flatness
+[SWAD: Domain Generalization by Seeking Flat Minima](https://arxiv.org/abs/2102.08604)
+- Junbum Cha, Sanghyuk Chun, Kyungjae Lee, Han-Cheol Cho, Seunghyun Park, Yunsung Lee, Sungrae Park
+
 
 ### Meta Learning
 [Domain Generalization via Model-agnostic Learning of Semantic Features](https://arxiv.org/abs/1910.13580)
