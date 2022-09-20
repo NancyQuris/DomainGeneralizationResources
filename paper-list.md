@@ -43,9 +43,11 @@ Related papers about domain generalization, with a main focus on the papers of a
 - Sivan Harary, Eli Schwartz, Assaf Arbelle, Peter Staar, Shady Abu-Hussein, Elad Amrani, Roei Herzig, Amit Alfassy, Raja Giryes, Hilde Kuehne, Dina Katabi, Kate Saenko, Rogerio Feris, Leonid Karlinsky
 
 ### Domain-invariant and Domain-specific Feature Learning
-
 [Domain Generalization via Invariant Feature Representation](https://arxiv.org/abs/1301.2115)
 - Krikamol Muandet, David Balduzzi, Bernhard Schölkopf
+
+[Domain Generalization via Conditional Invariant Representations](https://arxiv.org/abs/1807.08479)
+- Ya Li, Mingming Gong, Xinmei Tian, Tongliang Liu, Dacheng Tao
 
 [Domain Agnostic Learning with Disentangled Representations](https://arxiv.org/abs/1904.12347)
 - Xingchao Peng, Zijun Huang, Ximeng Sun, Kate Saenko
@@ -164,6 +166,9 @@ Related papers about domain generalization, with a main focus on the papers of a
 ### Causality
 [Domain Generalization Using Causal Matching](https://arxiv.org/abs/2006.07500)
 - Divyat Mahajan, Shruti Tople, Amit Sharma
+
+[Causality-inspired Single-source Domain Generalization for Medical Image Segmentation](https://arxiv.org/abs/2111.12525)
+- Cheng Ouyang, Chen Chen, Surui Li, Zeju Li, Chen Qin, Wenjia Bai, Daniel Rueckert
 
 ### Contrastive Learning
 [_Domain Contrast for Domain Adaptive Object Detection_](https://arxiv.org/abs/2006.14863)
